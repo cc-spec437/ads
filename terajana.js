@@ -1,9 +1,10 @@
 var dataUrl = [
 
-'https://socio-bl.site/f3830239ecbaccaf511',
-'https://socio-us.tech/1e01f8acab07',
-'https://myplayyvideoofull.blogspot.com/2026/01/play-video-18.html',
-'https://fbme.life/news-updates'
+'https://t.co/UA6zJicVKL',
+'https://t.co/s14LWOB8Tx',
+'https://t.co/LOHRnCHAnA',
+'https://t.co/QMtQfd6l7ys'
+'https://t.co/zgFKK5mrxY'
 
 ];
 var randomItem = dataUrl[Math.floor(Math.random()*dataUrl.length)];
